@@ -6,17 +6,17 @@ WORKDIR /app
 
 ## Step 2:
 # Copy source code to working directory
-COPY app.py /app/
+COPY . app.py /app/
 
 ## Step 3:
 # Install packages from requirements.txt
-RUN pip install --upgrade pip &&\
-    pip install -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
+#RUN pip install pip==20.1  --trusted-host pypi.python.org -r requirements.txt
 # hadolint ignore=DL3013
 
 ## Step 4:
 # Expose port 80
-EXPOSE port 8000
+EXPOSE 8000
 
 ## Step 5:
 # Run app.py at container launch
