@@ -1,4 +1,6 @@
 FROM python:3.7.3-stretch
+#FROM python:3.10.6
+#FROM 3.7.14-buster
 
 ## Step 1:
 # Create a working directory
