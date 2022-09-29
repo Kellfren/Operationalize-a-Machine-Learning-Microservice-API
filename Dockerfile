@@ -1,6 +1,6 @@
 FROM python:3.7.3-stretch
 #FROM python:3.10.6
-#FROM 3.7.14-buster
+#FROM python:3.7.14-buster
 
 ## Step 1:
 # Create a working directory
@@ -18,7 +18,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 ## Step 4:
 # Expose port 80
-EXPOSE 80
+EXPOSE 8000
 
 ## Step 5:
 # Run app.py at container launch
