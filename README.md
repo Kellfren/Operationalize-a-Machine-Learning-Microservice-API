@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mroluseyi/Udacity-ML-Microservices-Project/tree/master.svg?style=svg)]()
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mroluseyi/Udacity-ML-Microservices-Project/tree/master.svg?style=svg)](https://app.circleci.com/pipelines/github/Kellfren/Operationalize-a-Machine-Learning-Microservice-API?branch=main)
 
 
 ## Project Overview
