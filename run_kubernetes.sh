@@ -4,7 +4,7 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=frenkell/prediction_app:latest
+dockerpath=frenkell/prediction-app:latest
 echo "Docker ID and Image: $dockerpath"
 
 # Step 2
@@ -13,7 +13,7 @@ kubectl run prediction-app --image=$dockerpath --port=8000 --labels app=frenkell
 
 # Step 3:
 # List kubernetes pods
-sleep 20
+sleep 100
 kubectl get pods
 
 # Step 4:

@@ -5,13 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=frenkell/prediction_app
+dockerpath=frenkell/prediction-app
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login &&\
-docker image tag prediction_app $dockerpath
+    docker image tag prediction-app $dockerpath
 
 # Step 3:
 docker push $dockerpath
